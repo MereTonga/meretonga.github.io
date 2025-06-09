@@ -1,0 +1,51 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Açık gri arka plan */
+    color: #333; /* Koyu gri yazı rengi */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Minimum tam ekran yüksekliği */
+}
+
+header {
+    background: #333; /* Koyu gri başlık arka planı */
+    color: #fff; /* Beyaz yazı rengi */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden; /* Taşmayı engeller */
+    padding: 20px 0;
+    flex-grow: 1; /* İçeriğin dikeyde yayılmasını sağlar */
+}
+
+.main-content {
+    background: #fff; /* Beyaz içerik kutusu */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Köşeleri yuvarla */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Hafif gölge */
+}
+
+h2 {
+    color: #007bff; /* Mavi başlıklar */
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: auto; /* Footer'ı en alta iter */
+}
+```
