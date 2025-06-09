@@ -1,2 +1,2 @@
 # meretonga.github.io
-My personal website
+Kişisel web sitem
